@@ -1,0 +1,43 @@
+html {
+    background-color: #333;
+    color: lawngreen;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 300px);
+    gap: 25px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    gap: 30px;
+}
+
+.picture {
+    background: green;
+}
+
+.img1 {
+    background-size: cover;
+    /* background-size: contain;     */
+    background-image: url(./img/designbyinie.png);
+}
+
+.img2 {
+    background-size: cover;
+    /* background-size: contain;     */
+    background-image: url(./img/HTML_largicon.png);
+}
+
+.img3 {
+    background-size: cover;
+    /* background-size: contain;     */
+    background-image: url(./img/CSS_logo.png);
+}
+
+h2 {
+    display: none;
+}
